@@ -1,0 +1,41 @@
+body{
+    text-align: right!important;
+    font-family:Tahoma!important;
+}
+
+
+.panel-default > .panel-heading{
+    background-color: #1d2124!important;
+    color: #9d9d9d!important;
+}
+
+.album {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #f7f7f7;
+}
+
+.card {
+    float: right;
+    width: 29.333%;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    margin-right: 30px;
+    border: 0;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.show{
+    float: left;
+}
